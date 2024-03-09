@@ -48,8 +48,8 @@ class _ResidualBlock(nn.Module):
     def __init__(self, channels: int):
         super().__init__()
         self.__block = nn.Sequential(
-            _DownSamplingConvolutionalBlock(channels, channels, add_activation=True, kernel_size=3, padding=1),
-            _DownSamplingConvolutionalBlock(channels, channels, add_activation=False, kernel_size=3, padding=1),
+            _DownSamplingConvolutionalBlock(channels, channels, apply_activation=True, kernel_size=3, padding=1),
+            _DownSamplingConvolutionalBlock(channels, channels, apply_activation=False, kernel_size=3, padding=1),
         )
 
     def forward(self, x):
@@ -98,7 +98,6 @@ class Generator(nn.Module):
                 _DownSamplingConvolutionalBlock(
                     num_features * 2,
                     num_features * 4,
-                    is_downsampling=True,
                     kernel_size=3,
                     stride=2,
                     padding=1,
@@ -123,7 +122,6 @@ class Generator(nn.Module):
                 _UpSamplingConvolutionalBlock(
                     num_features * 2,
                     num_features * 1,
-                    is_downsampling=False,
                     kernel_size=3,
                     stride=2,
                     padding=1,
