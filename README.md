@@ -43,8 +43,8 @@ Training script is available in [`pix2pix.ipynb`](./pix2pix.ipynb)
 
 | Example 1                                | Example 2                                 | Example 3                            |
 |--------------------------------------------|----------------------------------------------|------------------------------------|
-| ![Example 1](./examples/labels_002.jpg) | ![Example 2](./examples/labels_004.jpg) | ![Example 3](./examples/labels_009.jpg) |
-| ![Example 1](./examples/pix2pix_002.jpg) | ![Example 2](./examples/pix2pix_004.jpg) | ![Example 3](./examples/pix2pix_009.jpg) |
+| ![Example 1](./images/labels_002.jpg) | ![Example 2](./images/labels_004.jpg) | ![Example 3](./images/labels_009.jpg) |
+| ![Example 1](./images/pix2pix_002.jpg) | ![Example 2](./images/pix2pix_004.jpg) | ![Example 3](./images/pix2pix_009.jpg) |
 
 ### CycleGAN
 
@@ -73,8 +73,8 @@ Training script is available at [`cyclegan.ipynb`](./cyclegan.ipynb)
 
 | Example 1                                | Example 2                                 | Example 3                            |
 |--------------------------------------------|----------------------------------------------|------------------------------------|
-| ![Example 1](./examples/labels_001.jpg) | ![Example 2](./examples/labels_007.jpg) | ![Example 3](./examples/labels_008.jpg) |
-| ![Example 1](./examples/cyclegan_001.jpg) | ![Example 2](./examples/cyclegan_007.jpg) | ![Example 3](./examples/cyclegan_008.jpg) |
+| ![Example 1](./images/labels_001.jpg) | ![Example 2](./images/labels_007.jpg) | ![Example 3](./images/labels_008.jpg) |
+| ![Example 1](./images/cyclegan_001.jpg) | ![Example 2](./images/cyclegan_007.jpg) | ![Example 3](./images/cyclegan_008.jpg) |
 
 ### Comparison
 
