@@ -41,6 +41,11 @@ Training script is available in [`pix2pix.ipynb`](./pix2pix.ipynb)
 
 #### Results
 
+| Example 1                                | Example 2                                 | Example 3                            |
+|--------------------------------------------|----------------------------------------------|------------------------------------|
+| ![Example 1](./examples/labels_002.jpg) | ![Example 2](./examples/labels_004.jpg) | ![Example 3](./examples/labels_009.jpg) |
+| ![Example 1](./examples/pix2pix_002.jpg) | ![Example 2](./examples/pix2pix_004.jpg) | ![Example 3](./examples/pix2pix_009.jpg) |
+
 ### CycleGAN
 
 Unlike other GANs, CycleGAN comes really handy when you don't have a pairing images set.
@@ -66,6 +71,11 @@ Training script is available at [`cyclegan.ipynb`](./cyclegan.ipynb)
 
 #### Results
 
+| Example 1                                | Example 2                                 | Example 3                            |
+|--------------------------------------------|----------------------------------------------|------------------------------------|
+| ![Example 1](./examples/labels_001.jpg) | ![Example 2](./examples/labels_007.jpg) | ![Example 3](./examples/labels_008.jpg) |
+| ![Example 1](./examples/cyclegan_001.jpg) | ![Example 2](./examples/cyclegan_007.jpg) | ![Example 3](./examples/cyclegan_008.jpg) |
+
 ### Comparison
 
 The detailed comparison available at [`comparison.ipynb`](./comparison.ipynb). The notebook offers 
@@ -86,5 +96,6 @@ The results are given in the next ordering:
 | Small house                                | Big building                                 | Theatre                            | Shop                         |
 |--------------------------------------------|----------------------------------------------|------------------------------------|------------------------------|
 | ![Small house](./examples/small_house.png) | ![Big building](./examples/big_building.png) | ![Theatre](./examples/theatre.png) | ![Shop](./examples/shop.png) |
-| ![Small house](./examples/small_house.png) | ![Big building](./examples/big_building.png) | ![Theatre](./examples/theatre.png) | ![Shop](./examples/shop.png) |
+| ![Small house](./images/pix2pix_small_house.jpg) | ![Big building](./images/pix2pix_big_building.jpg) | ![Theatre](./images/pix2pix_theatre.jpg) | ![Shop](./images/pix2pix_shop.jpg) |
+| ![Small house](./images/cyclegan_small_house.jpg) | ![Big building](./images/cyclegan_big_building.jpg) | ![Theatre](./images/cyclegan_theatre.jpg) | ![Shop](./images/cyclegan_shop.jpg) |
 
