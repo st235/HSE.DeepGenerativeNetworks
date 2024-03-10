@@ -30,8 +30,8 @@ class _BasicBlock(nn.Module):
         return fx
 
 
-class ConditionalDiscriminator(nn.Module):
-    """Conditional Discriminator."""
+class Discriminator(nn.Module):
+    """Pix2Pix Conditional Discriminator."""
 
     def __init__(self, ):
         super().__init__()

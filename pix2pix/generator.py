@@ -67,8 +67,8 @@ class _DecoderBlock(nn.Module):
         return fx
 
 
-class UnetGenerator(nn.Module):
-    """U-Net-like model.
+class Generator(nn.Module):
+    """U-Net-like Pix2Pix Generator.
 
     The generator of pix2pix cGAN is a modified U-Net.
     A U-Net consists of an encoder (down sampler) and decoder (up sampler).
