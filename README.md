@@ -73,7 +73,14 @@ side-by-side images obtained from _Pix2Pix_ and _CycleGAN_.
 
 #### Custom images
 
-I've also prepared a few custom images for test.
+I've also prepared a few custom images for test: small house, big building, theatre, and a shop.
+
+The results are given in the next ordering: 
+
+1. custom facades segmentation, 
+2. pix2pix generations, 
+3. cyclegan generations.
+
 
 | Small house                                | Big building                                 | Theatre                            | Shop                         |
 |--------------------------------------------|----------------------------------------------|------------------------------------|------------------------------|
